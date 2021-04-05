@@ -5,19 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="latihan.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Glints</title>
 </head>
 <body>
-    <header>Ini adalah header</header>
-    <a href="https://www.koobits.com/">Link Koobits</a>
-    <p class="apa-aja" id='ubah-warna'>Rubah warna</p>
-    <button onclick="mode()">Change Color</button>
-    <h2 class="umur-manusia" id="myDIV">Umur saya 14 tahun</h2>
-    <img src="./gambar/ink.png" alt="rusak">
-    <div>
-        <p></p>
-        <h1></h1>
+    <div class="header" id="header">
+        <div class="logo">Miaw</div>
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <div>
+                <button onclick="changeMode()">Change Mode</button>
+            </div>
+        </div>
     </div>
-    <script type="text/javascript" src="latihan.js"></script>
+    <div class="content">
+        <div class="heading">
+            <h1>Hi Everyone,</h1>
+            <h1>Welcome to my <span>Website</span></h1>
+            <h2>In here, I want to give you something to see</h2>
+        </div>
+        <div class="sub-heading">
+            <h4>I really love my cats, do you want to see them?</h4>
+            <button class="yes-btn">Yes, I am</button>
+        </div>
+        <div class="cats">
+            <h4>My Cats</h4>
+            <div class="cat-img">
+                <img src='./gambar/img1.png' alt='cat'/>
+                <img src='./gambar/img2.png' alt='cat'/>
+                <img src='./gambar/img3.png' alt='cat'/>
+            </div>
+        </div>
+        <div class="forms">
+            <h4>Please tell my cat how adorable they are</h4>
+            <form>
+                <div class="name form-item">
+                    <label>
+                        Name:
+                    </label>
+                    <input/>
+                </div>
+                <div class="email form-item">
+                    <label>
+                        Email:
+                    </label>
+                    <textarea></textarea>
+                </div>
+                <button class="yes-btn">Send</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
