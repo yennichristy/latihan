@@ -1,8 +1,150 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.dark-mode {
+    background: #000000;
+    color: white;
+}
+.content, .header {
+    padding: 0px 3rem;
+}
+.header {
+    background: #8D76CE;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.icon {
-    width: 50px;
-    height: 50px;
+.header-dark-mode {
+    background: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3rem;
 }
+
+.nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 36px;
+}
+ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style:none;
+    font-size: 24px;
+    cursor: pointer;
+}
+li:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 72px;
+    margin: 0px;
+}
+h2 {
+    color: #7694CE;
+    font-size: 48px;
+    margin: 0px;
+}
+span {
+    color: #8D76CE;
+    text-decoration: underline;
+}
+.content {
+    margin-bottom: 1rem;
+}
+.heading {
+    margin: 4rem 0;
+}
+.sub-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+h4 {
+    font-size: 24px;
+}
+.yes-btn {
+    background: #8D76CE;
+    border-radius: 15px;
+    outline: none;
+    padding: 1rem;
+    border: none;
+    width: 239px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat-img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form, label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 30%;
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #8D76CE;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem 1rem;
+}
+
+textarea{
+    min-height: 200px;
+}
+
